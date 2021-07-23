@@ -1,0 +1,274 @@
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather Sans', sans-serif;
+
+}
+
+/*
+div {
+  background-color: #5588A3;
+}
+*/
+
+hr {
+  border-top: 6px dotted grey;
+  border-bottom: none;
+  width: 5%;
+  margin: 120px auto;
+
+}
+
+h1 {
+  color: #50CB93;
+  font-size: 5.625rem;
+  /*line-height: 2;*/
+  /* also can use font-size: 5.625em  1em=16px size relative to the parent element
+   but the rem relative to the root element*/
+  margin: 50px auto 0px auto;
+  font-family: 'Sacramento', cursive;
+  /* if there's size for element in side parent here is body center will not work
+  how to set margin to make it stay center*/
+  /*width: 20%;/*
+  /*margin: 0 auto 0 auto;  or as follow code*/
+  /*margin: 0 auto;*/
+
+}
+
+h2 {
+  color: #E8E8E8;
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+}
+
+h3 {
+  color:#11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  padding: 10px;
+  margin-top: 0px;
+  color: #E8E8E8;
+  line-height: 2;
+
+}
+
+a {
+  color: #E8E8E8;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px;
+  text-decoration: none;
+
+}
+
+a:hover{
+  color: #BDD01E;
+}
+
+/***class ******/
+
+.top-container{
+  background-color: #5588A3;
+  padding-top: 100px;
+  position: relative;
+}
+
+.middle-container{
+  padding: 100px 0 100px 0;
+  background-color: #145374;
+  padding-bottom: 20px;
+
+}
+
+.bottom-container{
+  background-color: #5588A3;
+  padding: 50px 0 20px;
+}
+
+.happy{
+  text-decoration: line-through;
+}
+.happier{
+  font-size: 2.5rem;
+  text-decoration: none;
+}
+
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+
+}
+
+.computer{
+  width: 25%;
+  float: left;
+  padding-right: 30px;
+}
+.chillies{
+  width: 25%;
+  float: right;
+  padding-left: 30px;
+}
+
+.intro{
+  width: 23%;
+  margin: auto;
+}
+.contact-message{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.copyright{
+  color: #50CB93;
+  font-size: 0.75rem;
+}
+.BUTTON_RGA {
+   background: #1EB2D0;
+   background-image: -webkit-linear-gradient(top, #1EB2D0, #3DF6D5);
+   background-image: -moz-linear-gradient(top, #1EB2D0, #3DF6D5);
+   background-image: -ms-linear-gradient(top, #1EB2D0, #3DF6D5);
+   background-image: -o-linear-gradient(top, #1EB2D0, #3DF6D5);
+   background-image: -webkit-gradient(to bottom, #1EB2D0, #3DF6D5);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   height: 11px;
+   line-height: 11px;
+   color: #FFFFFF;
+   font-family: Helvetica;
+   width: 115px;
+   font-size: 15px;
+   font-weight: 100;
+   padding: 19px;
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+   box-shadow: 1px 1px 20px 0 #000000;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #337FED 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.BUTTON_RGA:hover {
+   border: solid #337FED 1px;
+   background: #BDD01E;
+   background-image: -webkit-linear-gradient(top, #BDD01E, #3DF66D);
+   background-image: -moz-linear-gradient(top, #BDD01E, #3DF66D);
+   background-image: -ms-linear-gradient(top, #BDD01E, #3DF66D);
+   background-image: -o-linear-gradient(top, #BDD01E, #3DF66D);
+   background-image: -webkit-gradient(to bottom, #BDD01E, #3DF66D);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+
+
+
+
+
+
+/*
+ /* clear = anti-float*
+.computer-bottom-words{
+  clear: left;
+
+}
+
+.chillies-bottom-words{
+  clear: right;
+}
+*/
+
+/*
+.computer-bottom{
+  text-align: left;
+}
+
+.computer-bottom-words{
+  text-align: left;
+}
+*/
+
+/*.myskill {
+  color: white;
+}*/
+/*
+.top-container{
+  background-color: #5588A3;
+  height: 200px;
+  width: 200px;
+  border-width: 10px;
+  border-style: solid;
+  padding: 20px;
+}
+
+.middle-container{
+  height: 200px;
+  width: 200px;
+  background-color: #145374;
+  border-width: 20px;
+  border-style: solid;
+  margin-left: 260px;
+}
+
+.bottom-container{
+  height: 200px;
+  width: 200px;
+  background-color: #00334E;
+  border-width: 10px;
+  border-style: solid;
+  margin-left: 500px;
+}
+*/
+
+/*
+
+.top-container{
+  background-color: #5588A3;
+  height: 200px;
+  width: 200px;
+  border-width: 10px;
+  border-style: solid;
+  padding: 20px;
+}
+
+.middle-container{
+  height: 200px;
+  width: 200px;
+  background-color: #145374;
+  border-width: 20px;
+  border-style: solid;
+  position: relative;
+  left:260px;
+}
+
+.bottom-container{
+  height: 200px;
+  width: 200px;
+  background-color: #00334E;
+  border-width: 10px;
+  border-style: solid;
+  position: relative;
+  left: 500px;
+}
+*/
